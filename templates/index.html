@@ -1,21 +1,23 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 {% block content %}
-<style>
-    body {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        background-color: #fdfdfd;
-    }
-    
-    .head_text {
-        color: white;
-    }
-    
-    .card {
-        box-shadow: 0 16px 48px #E3E7EB;
-    }
-</style>
 
+{% block sidebar %}
+
+<!-- Sidebar Widgets Column -->
+<div class="col-md-4 float-right ">
+    <div class="card my-4">
+        <h5 class="card-header">Try before you buy...</h5>
+        <div class="card-body">
+            <p class="card-text"> We want to help beginers with the basics of cooking and give more insight to
+                experienced cooks! To kick start your training we've included some free recipes for you to try out
+                before purchasing one of our packages! The recipes we've chosen to share with you are some of our most
+                popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
+            <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
+        </div>
+    </div>
+</div>
+
+{% endblock sidebar %}
 <header class="masthead">
     <div class="overlay"></div>
     <div class="container">

@@ -22,6 +22,28 @@ body {
     padding-top: 10px;
 }
 
+/*-------------------------------------------sidebar style*/
+
+.card {
+    box-shadow: 0 16px 48px #E3E7EB;
+}
+
+/*------------------------------------------index style*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: #fdfdfd;
+}
+
+.head_text {
+    color: white;
+}
+
+.card {
+    box-shadow: 0 16px 48px #E3E7EB;
+}
+
 /*------------------------------------------Google Map*/
 
 div#map {min-height: 360px;}

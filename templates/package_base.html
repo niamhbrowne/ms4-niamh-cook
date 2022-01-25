@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -11,31 +12,6 @@
 </head>
 
 <body>
-    <style>
-        body {
-            font-family: "Roboto", sans-serif;
-            font-size: 17px;
-            background-color: #fdfdfd;
-        }
-
-        .shadow {
-            box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
-        }
-
-        .btn-danger {
-            color: #fff;
-            background-color: #f00000;
-            border-color: #dc281e;
-        }
-
-        .masthead {
-            background: #3398E1;
-            height: auto;
-            padding-bottom: 15px;
-            box-shadow: 0 16px 48px #E3E7EB;
-            padding-top: 10px;
-        }
-    </style>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="mainNav">
@@ -61,7 +37,27 @@
             </div>
         </div>
     </nav>
+    {% block sidebar %}
 
+    <style>
+        .card {
+            box-shadow: 0 16px 48px #E3E7EB;
+        }
+    </style>
+
+    <!-- Sidebar Widgets Column -->
+    <div class="col-md-4 float-right ">
+        <div class="card my-4">
+            <h5 class="card-header">Try before you buy...</h5>
+            <div class="card-body">
+                <p class="card-text"> We want to help beginers with the basics of cooking and give more insight to
+                    experienced cooks! To kick start your training we've included some free recipes for you to try out before purchasing one of our packages! The recipes we've chosen to share with you are some of our most popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
+                <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
+            </div>
+        </div>
+    </div>
+
+    {% endblock sidebar %}
     {% block content %}
     <!-- Content Goes here -->
     {% endblock content %}
