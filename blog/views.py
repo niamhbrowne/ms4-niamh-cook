@@ -20,11 +20,31 @@ def about(request):
     return render(request, 'about.html', context)
 
 
+def packages(request):
+    context = {}
+    return render(request, 'packages.html', context)
+
+
 def contact(request):
     context = {}
     return render(request, 'contact.html', context)
 
 
-def packages(request):
+def index(request):
     context = {}
-    return render(request, 'packages.html', context)
+    return render(request,'index.html', context)
+
+
+def one_package(request):
+    context = {}
+    return render(request, 'one_package.html', context)
+
+
+def two_package(request):
+    context = {}
+    return render(request, 'two_package.html', context)
+
+
+def three_package(request):
+    context = {}
+    return render(request, 'three_package.html', context)
