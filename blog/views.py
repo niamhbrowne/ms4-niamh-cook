@@ -24,11 +24,15 @@ def packages(request):
     context = {}
     return render(request, 'packages.html', context)
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 def contact(request):
     context = {}
     return render(request, 'contact.html', context)
 
+<<<<<<< Updated upstream
 
 def index(request):
     context = {}
@@ -48,3 +52,5 @@ def two_package(request):
 def three_package(request):
     context = {}
     return render(request, 'three_package.html', context)
+=======
+>>>>>>> Stashed changes
