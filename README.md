@@ -11,11 +11,11 @@ The webpage holds free recipes which the owner of The Online Cooking Guide can a
 
 ## User Experience
 ### UX 5 Planes
-#### Strategy Plane
+#### <b>Strategy</b>
 
 The aim of this website was to create a functioning e-commerce page using the Django Frameworks. This application allows users to register to make their own profiles and log in which will make checkouts easier for them in the future. 
 
-#### Scope Plane
+#### <b>Scope</b>
 
 Based on the requirements of achieving user's and owner's goals and stories, here is the list of required features and functions that this webpage has. CRUD (Create, Read, Update, and Delete) functions are implemented on the website as well.
 
@@ -29,7 +29,7 @@ Based on the requirements of achieving user's and owner's goals and stories, her
 <li>The accounts page saves users details to make future transactions easier.</li>
 </ul>
 
-#### Structure Plane
+#### <b>Structure</b>
 ##### Header and navigation
 The navigation has been kept the same through the whole website and consists of:
 <ul>
@@ -126,3 +126,56 @@ The footer is on every page of the website and consists of a copyright tag, the 
 <li></li>
 <li></li>
 </ul>
+
+#### <b>Surface</b>
+The website has been designed to focus on cooking, the recipes in the blog and the packages that users can purchase. The webpage follows a plain colour scheme with a pop of colour in each page to keep users interested.  I used vibrant coloured images to make the pictures of the food stand out to the user to reinforce the message that the page is focused on food, cooking and what users could achieve if they buy the packages.
+##### <b>Typography</b>
+I have used Roboto and sans-serif fonts throughout the webpage. I’ve selected these fonts due to their simplicity, this keeps the website clean and tidy, it allows users to stay focused on what they’re reading rather than getting distracted by crazy fonts.
+
+#### <b>Skeleton</b>
+The website  has been designed to be compatible with all screen sizes, they have been tested on iPad Pro, iPhone and on normal browser screen.
+Wireframes for this project can be found <a href=’’>here</a>
+
+## Features
+### Existing Features
+<ul>
+<li>Developed in HTML, CSS, Javascript, Python, Django and Bootsrap</li>
+<li>Sqlite3</li>
+<li>Deployed with Heroku</li>
+<li>CRUD functionality</li>
+<li>Register, log in, log out functionality</li>
+<li>Stripe payment</li>
+<li>Blog which can be edited by owner through admin</li>
+</ul>
+
+### Features Left to Impliment
+<ul>
+<li>Adding more packages</li>
+<li>Creating a membership system</li>
+<li>Chat Bot</li>
+<li>Blog for students to use</li>
+</ul>
+
+## Technologies Used
+<ul>
+<li><a href=’’>HTML5</a> for markup</li>
+<li><a href=’’>CSS3</a> for style</li>
+<li><a href=’’>Python</a> for backend development</li>
+<li><a href=’’>Javascript</a> to add functionality to parts of the website</li>
+<li><a href=’’>Django</a> for frameworks</li>
+<li><a href=’’>Gitpod</a> to write the code</li>
+<li><a href=’’>Github</a> to use as a repository</li>
+<li><a href=’’>Bootstrap</a> for styling parts of the website and main frame</li>
+<li><a href=’’>Allauth</a> for user sign up</li>
+<li><a href=’’>Stripe</a> for one time payments</li>
+<li><a href=’’>Heroku</a> for deployment of the website</li>
+</ul>
+
+## Resources 
+
+## Testing
+
+## Version Control 
+### Gitpod and Github
+### Deployment 
+### Database 
