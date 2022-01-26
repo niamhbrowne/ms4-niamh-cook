@@ -127,3 +127,13 @@ div#map {min-height: 360px;}
     letter-spacing: 3px;
     border-bottom: 9px solid #74c2bb;
 }
+
+/*--------------------------------------------------Home Page*/
+.home h4 {
+text-align: center;
+letter-spacing: 5px;
+}
+
+.home p {
+
+}
