@@ -172,6 +172,21 @@ Wireframes for this project can be found <a href=’’>here</a>
 </ul>
 
 ## Resources 
+<ul>
+<li><a href=’’>Google images</a> for images in package detail pages</li>
+<li><a href=’’>Facebook</a> used images from Piece of Cake Omagh and Barboni’s Omagh with permission</li>
+<li><a href=’’>Google</a> for help looking up solutions to problems</li>
+<li><a href=’’>Code institute</a> followed tutorials for parts of the project and to learn how to use Django</li> 
+<li><a href=’’>Slack </a> asked other members for help and advice</li>
+<li><a href=’’>Youtube</a> watched videos on how to code different aspects</li>
+<li><a href=’’>W3schools</a> searched how to code certain aspects of the code</li>
+<li><a href=’’>DJANGOCENTRAL</a> followed a tutorial for the blog</li>
+<li><a href=’’>Font Awesome</a> used icons for headings throughout the project</li>
+<li><a href=’’>Stackoverflow</a> gave isnight on how to solve broken code</li>
+<li><a href=’’>Elegant themes</a> helped with the telephone link</li>
+<li><a href=’’>Color-Hex </a> used for the colour of banner and text</li>
+<li><a href=’’>Tutorialspoint</a> read through code to give some inspiration</li>
+</ul>
 
 ## Testing
 
