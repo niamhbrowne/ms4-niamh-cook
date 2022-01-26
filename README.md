@@ -158,17 +158,17 @@ Wireframes for this project can be found <a href=’’>here</a>
 
 ## Technologies Used
 <ul>
-<li><a href=’’>HTML5</a> for markup</li>
-<li><a href=’’>CSS3</a> for style</li>
-<li><a href=’’>Python</a> for backend development</li>
-<li><a href=’’>Javascript</a> to add functionality to parts of the website</li>
-<li><a href=’’>Django</a> for frameworks</li>
-<li><a href=’’>Gitpod</a> to write the code</li>
-<li><a href=’’>Github</a> to use as a repository</li>
-<li><a href=’’>Bootstrap</a> for styling parts of the website and main frame</li>
-<li><a href=’’>Allauth</a> for user sign up</li>
-<li><a href=’’>Stripe</a> for one time payments</li>
-<li><a href=’’>Heroku</a> for deployment of the website</li>
+<li><a href=’https://en.wikipedia.org/wiki/HTML5’>HTML5</a> for markup</li>
+<li><a href=’https://en.wikipedia.org/wiki/CSS’>CSS3</a> for style</li>
+<li><a href=’https://www.python.org/’>Python</a> for backend development</li>
+<li><a href=’https://en.wikipedia.org/wiki/JavaScript’>Javascript</a> to add functionality to parts of the website</li>
+<li><a href=’https://www.djangoproject.com/’>Django</a> for frameworks</li>
+<li><a href=’https://www.gitpod.io/’>Gitpod</a> to write the code</li>
+<li><a href=’https://github.com/’>Github</a> to use as a repository</li>
+<li><a href=’https://getbootstrap.com/’>Bootstrap</a> for styling parts of the website and main frame</li>
+<li><a href=’https://github.com/HackerEarth/django-allauth’>Allauth</a> for user sign up</li>
+<li><a href=’https://stripe.com/gb’>Stripe</a> for one time payments</li>
+<li><a href=’https://www.heroku.com/’>Heroku</a> for deployment of the website</li>
 </ul>
 
 ## Resources 
