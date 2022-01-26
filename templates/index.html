@@ -1,23 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% block sidebar %}
+{% include 'sidebar.html' %}
 
-<!-- Sidebar Widgets Column -->
-<div class="col-md-4 float-right ">
-    <div class="card my-4">
-        <h5 class="card-header">Try before you buy...</h5>
-        <div class="card-body">
-            <p class="card-text"> We want to help beginers with the basics of cooking and give more insight to
-                experienced cooks! To kick start your training we've included some free recipes for you to try out
-                before purchasing one of our packages! The recipes we've chosen to share with you are some of our most
-                popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
-            <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
-        </div>
-    </div>
-</div>
-
-{% endblock sidebar %}
 <header class="masthead">
     <div class="overlay"></div>
     <div class="container">
@@ -76,6 +61,15 @@
   <div>
       <h2>Kind Words...</h2>
       <h4>⭐️⭐️⭐️⭐️⭐️</h4>
-      <p>I enjoyed </p>
+      <p>I enjoyed the online cooking guides recipes.  I liked that they offered potential customers free recipes to trial before actually purchasing one of their packages.  I myself went for the bakery package and enjoyed learning new tips and ticks.  I liked that once you purchased the package they say it'll up to 24 hours to recieve it in your emails however mine came within a couple of hours. The coaches were very helpful as well, if you had any questions they'd email you back as soon as they could (sometimes that was straight away).</p>
+
+      <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+      <p>I purchased the beginners package and I can tell you that I am now no longer a beginner cook.  I've learnt so many new dishes and I love cooking for family and friends now as well.  The package content was sent through very quickly and the coaches were always there to help.  If you needed an answer straight away (which didn't happen often as the instructions are so detailed) they were only a phone call away. I'd highly recommend The Online Cooking Guide if you want to broaden your skills in the kitchen.</p>
+
+      <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+      <p>I found the package contents very useful.  I went for the experienced package which had more difficult recipes in and I loved challenging myself.  I never had to contact the coaches however they emailed here and there to see how my new skills were coming along.  The website is easy to follow which makes purchasing the plans so much easier.  I like that the company is so personal in sending the course material themselves and not automated, it shows they care about their students. I've completed the experienced package and am now going to try out the bakery package. </p>
+
+      <h4>⭐️⭐️⭐️⭐️⭐️</h4>
+      <p>With previous online cooking classes I could never get comfortable with cooking. A friend recommended me to this page and it has changed my whole outlook on cooking.  I initially tried out one of the free recipes to try out and my family loved how it turned out so I decided to buy the beginners package.  It included so many easy to follow recipes.  The coaches were always there to offer support and encourage me to keep up my cooking, giving me simple tips that would majorly in the kitchen.  I'm recommending this company onto all my friends and family.</p>
   </div>
 {% endblock %}

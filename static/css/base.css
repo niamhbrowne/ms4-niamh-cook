@@ -28,6 +28,10 @@ body {
     box-shadow: 0 16px 48px #E3E7EB;
 }
 
+.tag {
+    position: relative;
+    z-index: 10000;
+}
 /*------------------------------------------index style*/
 
 body {
@@ -51,4 +55,69 @@ div#map {min-height: 360px;}
 #map {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+/*----------------------------------------about/contact page*/
+
+.h1-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+
+.h2-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 9px solid #3398E1;
+    
+}
+
+.contact-info {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 9px solid #3398E1;
+}
+
+.contact-text {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 9px solid #3398E1;
 }

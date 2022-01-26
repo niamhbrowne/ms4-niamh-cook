@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
-    template_name = 'index.html'
+    template_name = 'post-list.html'
 
 
 class PostDetail(generic.DetailView):
@@ -32,7 +32,7 @@ def contact(request):
 
 def index(request):
     context = {}
-    return render(request,'index.html', context)
+    return render(request, 'index.html', context)
 
 
 def one_package(request):
