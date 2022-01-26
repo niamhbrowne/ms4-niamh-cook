@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% include 'sidebar.html' %}
 
 <header class="masthead">
     <div class="overlay"></div>
@@ -17,6 +16,31 @@
         </div>
     </div>
 </header>
+<!------------------------------------------Carousel from Bootstrap-->
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade home-image" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/174169753_2949645558602317_5291954308966908644_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=a26aad&_nc_ohc=Vt04VJ9Tjb8AX9DgT16&_nc_ht=scontent.fgla3-1.fna&oh=00_AT-MuZh8kZWf_dGJQVrZ9SyGWOOtJGo1sWNZBXizOT2XPA&oe=62170BA1" class="d-block w-100" alt="chicken dish">
+    </div>
+    <div class="carousel-item">
+      <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/173199662_2948127038754169_7647493783910065318_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=9267fe&_nc_ohc=ppH4ETgwuDkAX_WfG7F&_nc_ht=scontent.fgla3-2.fna&oh=00_AT8ulhzS2lI41nMzrlQT3i76YT2GomkG8zsUxYRO9TWtEg&oe=6214BA19" class="d-block w-100" alt="chicken wings">
+    </div>
+    <div class="carousel-item">
+      <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/156349039_2914677532099120_5076885417789570528_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=llE93HMaGVgAX-dU_Sy&_nc_ht=scontent.fgla3-2.fna&oh=00_AT8-GwoPjfstSuqO0JNrKvIgBS16CBkYV0VmCbLrAHdigA&oe=62163711" class="d-block w-100" alt="burgers">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <div class="container">
     <div class="row">
         <!-- Blog Entries Column -->
@@ -34,32 +58,22 @@
         </div>
     </div>
 </div>
-<!------------------------------------------Carousel from Bootstrap-->
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/174169753_2949645558602317_5291954308966908644_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=a26aad&_nc_ohc=Vt04VJ9Tjb8AX9DgT16&_nc_ht=scontent.fgla3-1.fna&oh=00_AT-MuZh8kZWf_dGJQVrZ9SyGWOOtJGo1sWNZBXizOT2XPA&oe=62170BA1" class="d-block w-100" alt="chicken dish">
+<!-------------------------------------------------sidebar-->
+<div class="col-md-4 float-right tag">
+  <div class="card my-4">
+      <h5 class="card-header">Try before you buy...</h5>
+      <div class="card-body">
+          <p class="card-text"> We want to help beginners with the basics of cooking and give more insight to
+              experienced cooks! To kick start your training we've included some free recipes for you to try out
+              before purchasing one of our packages! The recipes we've chosen to share with you are some of our most
+              popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
+          <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
       </div>
-      <div class="carousel-item">
-        <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/173199662_2948127038754169_7647493783910065318_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=9267fe&_nc_ohc=ppH4ETgwuDkAX_WfG7F&_nc_ht=scontent.fgla3-2.fna&oh=00_AT8ulhzS2lI41nMzrlQT3i76YT2GomkG8zsUxYRO9TWtEg&oe=6214BA19" class="d-block w-100" alt="chicken wings">
-      </div>
-      <div class="carousel-item">
-        <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/156349039_2914677532099120_5076885417789570528_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=llE93HMaGVgAX-dU_Sy&_nc_ht=scontent.fgla3-2.fna&oh=00_AT8-GwoPjfstSuqO0JNrKvIgBS16CBkYV0VmCbLrAHdigA&oe=62163711" class="d-block w-100" alt="burgers">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-
+</div>
   <!--------------------------------------------------------------------Reviews left by former students-->
   <div>
-      <h2>Kind Words...</h2>
+      <h2 class="h2-title">Kind Words...</h2>
       <h4>⭐️⭐️⭐️⭐️⭐️</h4>
       <p>I enjoyed the online cooking guides recipes.  I liked that they offered potential customers free recipes to trial before actually purchasing one of their packages.  I myself went for the bakery package and enjoyed learning new tips and ticks.  I liked that once you purchased the package they say it'll up to 24 hours to recieve it in your emails however mine came within a couple of hours. The coaches were very helpful as well, if you had any questions they'd email you back as soon as they could (sometimes that was straight away).</p>
 
