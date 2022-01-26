@@ -64,29 +64,46 @@ The footer is on every page of the website and consists of a copyright tag, the 
 
 ##### Package page
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Navigation bar at top of the page</li>
+<li>Sidebar with button to blog supplying free recipes</li>
+<li>Three cards including each package in option 1 per card</li>
+<li>Cards have a relative image, title for what package it is, a description of the package and a button to read more</li>
+<li>Footer at bottom of the page</li>
 </ul>
 
 ##### Package Detail Page
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Navigation bar at the top of the page</li>
+<li>Title of the package including price of package</li>
+<li>Short description of package as a h2 title</li>
+<li>A relative image to give users an imagery of what the package offers</li>
+<li>Title and list of whats included in the package</li>
+<li>Button that links to the shopping bag to pay</li>
+<li>Sidebar to engage customers in clicking the button to the free recipes</li>
+<li>The footer at the bottom of the page</li>
 </ul>
 
 ##### Contact Page
+<ul>
+<li>Navigation bar at the top of the page</li>
+<li>Contact Us title with text on how users with enquiries can contact and how students can get in contact</li>
+<li>How to get in contact title with telephone number, email and address</li>
+<li>Users are able to click on the telephone number and it'll call if on a device that can call via phone</li>
+<li>Users are able to click on the email address and it will redirect them to their email service to email the company</li>
+<li>Where we are based title with google maps below showing the location of where the company is based</li>
+<li>Footer at the bottom of the page with social media links</li>
+</ul>
+
+##### Blog Page
+<ul>
+<li>Navigation bar at the top</li>
+<li>Three boxes with the blog post including author name, date and time of publishment</li>
+<li>Each blog post box has a read more button</li>
+<li>Once the read more button is pressed it takes you to the full blog post with navigation bar and footer included on the page</li>
+<li>Footer at the bottom of the page</li>
+</ul>
+
+##### Accounts Page
 <ul>
 <li></li>
 <li></li>
@@ -98,7 +115,7 @@ The footer is on every page of the website and consists of a copyright tag, the 
 <li></li>
 </ul>
 
-##### Accounts Page
+##### Shopping Bag
 <ul>
 <li></li>
 <li></li>
