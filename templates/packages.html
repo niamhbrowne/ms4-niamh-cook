@@ -3,63 +3,67 @@
 {% block content %}
 {% block sidebar %}
 
-    <style>
-        .card {
-            box-shadow: 0 16px 48px #E3E7EB;
-        }
-    </style>
+<style>
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+    }
+</style>
 
-    <!-- Sidebar Widgets Column -->
-    <div class="col-md-4 float-right ">
-        <div class="card my-4">
-            <h5 class="card-header">Try before you buy...</h5>
-            <div class="card-body">
-                <p class="card-text"> We want to help beginers with the basics of cooking and give more insight to
-                    experienced cooks! To kick start your training we've included some free recipes for you to try out before purchasing one of our packages! The recipes we've chosen to share with you are some of our most popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
-                <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
-            </div>
+<!-- Sidebar Widgets Column -->
+<div class="col-md-4 float-right ">
+    <div class="card my-4">
+        <h5 class="card-header">Try before you buy...</h5>
+        <div class="card-body">
+            <p class="card-text"> We want to help beginers with the basics of cooking and give more insight to
+                experienced cooks! To kick start your training we've included some free recipes for you to try out
+                before purchasing one of our packages! The recipes we've chosen to share with you are some of our most
+                popular to date. We hope you love them as much as we do. Click the button below to find recipes!</p>
+            <a href="{% url 'post_list' %}" class="btn btn-danger">Start cooking!</a>
+        </div>
+    </div>
+</div>
+
+{% endblock sidebar %}
+<div class="container">
+    <h1 class="h1-title"><i class="fas fa-utensils"></i> Check out our packages <i class="fas fa-utensils"></i></h1>
+    <!----------------------------------------------Package 1 thumbnail-->
+    <div class="row">
+    <div class="card col-sm" style="width: 18rem;">
+        <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t39.30808-6/269278795_6719218441486067_1690539226220900939_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=a26aad&_nc_ohc=CyI9_CPusgYAX99sxin&_nc_oc=AQkKJvIoOfv4BrBraPEuDSjWyggH_GBNXBZ8opnyhZ55JHmRjlUGlH02O9JKYu8dT6M96jD6_u8YsHKiPuCcPy_p&_nc_ht=scontent.fgla3-2.fna&oh=00_AT-aM5LJ-iUB7pMWnurzNoh9EoHXUahDUoa4Z0_B5KyWDA&oe=61F604B7"
+            class="card-img-top" alt="image of cinnamon rolls">
+        <div class="card-body">
+            <h5 class="card-title">Package 1</h5>
+            <p class="card-text">In our <em>Baking Package</em> you will learn the basics to baking and will learn
+                new skills that you can put into practice with all types of baking.</p>
+            <a href="{% url 'one_package' %}" class="btn btn-primary">Read More &rarr;</a>
         </div>
     </div>
 
-    {% endblock sidebar %}
-<h1>Check out our packages...</h1>
-<div class="container">
-    <div class="row">
-<!----------------------------------------------Package 1 thumbnail-->
-<div class="card" style="width: 18rem;">
-    <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t39.30808-6/269278795_6719218441486067_1690539226220900939_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=a26aad&_nc_ohc=CyI9_CPusgYAX99sxin&_nc_oc=AQkKJvIoOfv4BrBraPEuDSjWyggH_GBNXBZ8opnyhZ55JHmRjlUGlH02O9JKYu8dT6M96jD6_u8YsHKiPuCcPy_p&_nc_ht=scontent.fgla3-2.fna&oh=00_AT-aM5LJ-iUB7pMWnurzNoh9EoHXUahDUoa4Z0_B5KyWDA&oe=61F604B7" class="card-img-top" alt="image of cinnamon rolls">
-    <div class="card-body">
-      <h5 class="card-title">Package 1</h5>
-      <p class="card-text">In our <em>Baking Package</em> you will learn the basics to baking and will learn new skills that you can put into practice with all types of baking.</p>
-      <a href="{% url 'one_package' %}" class="btn btn-primary">Read More &rarr;</a>
+    <!----------------------------------------------Package 2 thumbnail-->
+    <div class="card col-sm" style="width: 18rem;">
+        <img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/183833469_2969919226574950_6779234926337492793_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=9267fe&_nc_ohc=sm_Jyg4ls6kAX84Ff6G&_nc_ht=scontent.fgla3-2.fna&oh=00_AT9JgLX4C-QjVn1cSPZs9ShX8FRVsDNxSo_Yi67dhIOfzA&oe=62171A75"
+            class="card-img-top" alt="image of lasagne">
+        <div class="card-body">
+            <h5 class="card-title">Package 2</h5>
+            <p class="card-text">In our <em>Beginners Package</em> you will learn new and exciting ways of using
+                ingredients to create some amazing yet simple meals. This package was created in mind for people who
+                want to learn how make the most out of basic ingredients. </p>
+            <a href="{% url 'two_package' %}" class="btn btn-primary">Read More &rarr;</a>
+        </div>
     </div>
-  </div>
 
-<!----------------------------------------------Package 2 thumbnail-->
-<div>
-    <h2>Package 2</h2>
-    <h4>This Packages includes:</h4>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    <a href="{% url 'two_package' %}" class="btn btn-primary">Read More &rarr;</a>
-</div>
-
-<!----------------------------------------------Package 3 thumbnail-->
-<div>
-    <h2>Package 3</h2>
-    <h4>This Packages includes:</h4>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    <a href="{% url 'three_package' %}" class="btn btn-primary">Read More &rarr;</a>
-</div>
+    <!----------------------------------------------Package 3 thumbnail-->
+    <div class="card col-sm" style="width: 18rem;">
+        <img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/167502219_2944090019157871_2575884560311089292_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=mDRf_WNEqLIAX-AiL4F&tn=EsLGOMzP-i4cdoH9&_nc_ht=scontent.fgla3-1.fna&oh=00_AT9DOEMKfVan9oqyqDipL_qZAMD2Io2YuE-1PCdbF1dhww&oe=6215D652"
+            class="card-img-top" alt="image of steak melt">
+        <div class="card-body">
+            <h5 class="card-title">Package 3</h5>
+            <p class="card-text">In our <em>Beginners Package</em> you will learn the basics to baking and will
+                learn new skills that you can put into practice with all types of baking.</p>
+            <a href="{% url 'three_package' %}" class="btn btn-primary">Read More &rarr;</a>
+        </div>
+    </div>
 
 
 </div>
-
 {% endblock %}
