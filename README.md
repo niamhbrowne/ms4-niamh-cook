@@ -173,9 +173,9 @@ Wireframes for this project can be found <a href=’’>here</a>
 
 ## Resources 
 <ul>
-<li><a href=’’>Google images</a> for images in package detail pages</li>
-<li><a href=’’>Facebook</a> used images from Piece of Cake Omagh and Barboni’s Omagh with permission</li>
-<li><a href=’’>Google</a> for help looking up solutions to problems</li>
+<li><a href=’https://www.google.co.uk/imghp?hl=en&authuser=0&ogbl’>Google images</a> for images in package detail pages</li>
+<li><a href=’https://www.facebook.com/’>Facebook</a> used images from Piece of Cake Omagh and Barboni’s Omagh with permission</li>
+<li><a href=’https://www.google.com/webhp?hl=en&sa=X&sqi=2&pjf=1&ved=0ahUKEwikubjkxtD1AhUFtRoKHXoeBqcQPAgI’>Google</a> for help looking up solutions to problems</li>
 <li><a href=’’>Code institute</a> followed tutorials for parts of the project and to learn how to use Django</li> 
 <li><a href=’’>Slack </a> asked other members for help and advice</li>
 <li><a href=’’>Youtube</a> watched videos on how to code different aspects</li>
@@ -189,6 +189,72 @@ Wireframes for this project can be found <a href=’’>here</a>
 </ul>
 
 ## Testing
+### User Stories
+#### <b>Customer User Stories</b>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+#### <b>Site Owner User Stories</b>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+### User Stories Fulfilment
+#### <b>Fulfilment of Customer User Stories</b>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+#### <b>Fulfilment of Customer User Stories</b>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
 
 ## Version Control 
 ### Gitpod and Github
