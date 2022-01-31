@@ -15,21 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from products.views import (
-    CreateCheckoutSessionView,
-    SuccessView,
-    CancelView,
-)
-from products.views import (
-    ProductLandingPageView
-)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('', include('blog.urls')),
-    path('cancel/', CancelView.as_view(), name='cancel'),
-    path('success/', SuccessView.as_view(), name='success'),
-    path('create-checkout-session/<pk>/', CreateCheckoutSessionView.as_view(), name='create-checkout-session'),
-    path('', ProductLandingPageView.as_view(), name='landing'),
 ]
