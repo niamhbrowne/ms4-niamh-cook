@@ -42,12 +42,10 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'product',
-    'order'
     'django_tables2',
+    'products',
 ]
 
-CURRENCY = '£'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -155,3 +153,6 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+STRIPE_PUBLIC_KEY = "pk_test_51KMEeiH9DqGfqm7vgU6rnqJPigD8YsblVr3dymbrKpJhcq1HGcvLx5bklztXP21ufg8XESH0dc4uniHs5cywIQGj00YXd43vX2"
+STRIPE_SECRET_KEY = "sk_test_51KMEeiH9DqGfqm7vKbj0dQOiYxbok6kWIva06IJYKE9wJFT3cP3N2M5otiqESs8PHIexxkU8UtwBb2y7revLwmVQ002Nx89OQC"
