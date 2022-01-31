@@ -42,7 +42,12 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'product',
+    'order'
+    'django_tables2',
 ]
+
+CURRENCY = '£'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
