@@ -349,10 +349,9 @@ letter-spacing: 5px;
     letter-spacing: 3px;
 }
 
-.log-out form {
-
-}
-
 .log-out button {
-
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
