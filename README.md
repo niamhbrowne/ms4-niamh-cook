@@ -7,13 +7,13 @@
 This application was designed for people who want to learn the basics of cooking, broaden their cooking knowledge and learn how to bake. It is designed to be user-friendly so anyone can use it.  There are free recipes included in the webpage to entice users to buy one of the packages.
 
 ## What does it do?
-The webpage holds free recipes which the owner of The Online Cooking Guide can add to or take away from the admin on the website.  The customers can choose from three different packages which have descriptions on them and can easily check out using stripe payments.  Once the payment has been made it is up to the owner of the page to email out their package and details for their coaches.
+The webpage holds free recipes which the owner of The Online Cooking Guide can add to or take away from the admin on the website.  The customers can choose from three different packages which have descriptions on them and users can see their order history.
 
 ## User Experience
 ### UX 5 Planes
 #### <b>Strategy</b>
 
-The aim of this website was to create a functioning e-commerce page using the Django Frameworks. This application allows users to register to make their own profiles and log in which will make checkouts easier for them in the future. 
+The aim of this website was to create a functioning webpage using the Django Frameworks. This application allows users to register and log in where they can view order history. 
 
 #### <b>Scope</b>
 
@@ -23,10 +23,9 @@ Based on the requirements of achieving user's and owner's goals and stories, her
 <li>There are simple and effective call-to-action buttons throughout the website encouraging users to use free recipes to entice them to purchase a package after.</li>
 <li>I have the three different packages available to purchase on their own page, laid out clearly so customers can see them.</li>
 <li>The navigation bar is clearly laid out so customers know how to navigate through the website.</li>
-<li>The shopping bag is clearly laid out in the navigation bar for users to check what packages they’ve selected to purchase.</li>
 <li>Login and register pages have been created for users to log in and out of.</li>
 <li>The admin page allows the owner of the page to add and delete items (free recipes) in the blog.</li>
-<li>The accounts page saves users details to make future transactions easier.</li>
+<li>The accounts dropdown has an order history so users can view what they've ordered</li>
 </ul>
 
 #### <b>Structure</b>
@@ -103,28 +102,19 @@ The footer is on every page of the website and consists of a copyright tag, the 
 <li>Footer at the bottom of the page</li>
 </ul>
 
-##### Accounts Page
+##### Accounts Dropdown
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Sign in Option</li>
+<li>Sign up option</li>
+<li>Log out option if signed in</li>
+<li>Order history button if signed in</li>
 </ul>
 
 ##### Shopping Bag
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Navigation bar at the top of the page</li>
+<li>A message to say if the shopping bag is empty</li>
+<li>Footer at the bottom of the page</li>
 </ul>
 
 #### <b>Surface</b>
@@ -176,87 +166,79 @@ Wireframes for this project can be found <a href=’’>here</a>
 <li><a href=’https://www.google.co.uk/imghp?hl=en&authuser=0&ogbl’>Google images</a> for images in package detail pages</li>
 <li><a href=’https://www.facebook.com/’>Facebook</a> used images from Piece of Cake Omagh and Barboni’s Omagh with permission</li>
 <li><a href=’https://www.google.com/webhp?hl=en&sa=X&sqi=2&pjf=1&ved=0ahUKEwikubjkxtD1AhUFtRoKHXoeBqcQPAgI’>Google</a> for help looking up solutions to problems</li>
-<li><a href=’’>Code institute</a> followed tutorials for parts of the project and to learn how to use Django</li> 
-<li><a href=’’>Slack </a> asked other members for help and advice</li>
-<li><a href=’’>Youtube</a> watched videos on how to code different aspects</li>
-<li><a href=’’>W3schools</a> searched how to code certain aspects of the code</li>
-<li><a href=’’>DJANGOCENTRAL</a> followed a tutorial for the blog</li>
-<li><a href=’’>Font Awesome</a> used icons for headings throughout the project</li>
-<li><a href=’’>Stackoverflow</a> gave isnight on how to solve broken code</li>
-<li><a href=’’>Elegant themes</a> helped with the telephone link</li>
-<li><a href=’’>Color-Hex </a> used for the colour of banner and text</li>
-<li><a href=’’>Tutorialspoint</a> read through code to give some inspiration</li>
+<li><a href=’https://learn.codeinstitute.net/’>Code institute</a> followed tutorials for parts of the project and to learn how to use Django</li> 
+<li><a href=’https://slack.com/intl/en-gb/’>Slack </a> asked other members for help and advice</li>
+<li><a href=’https://www.youtube.com/’>Youtube</a> watched videos on how to code different aspects</li>
+<li><a href=’https://www.w3schools.com/’>W3schools</a> searched how to code certain aspects of the code</li>
+<li><a href=’https://djangocentral.com/building-a-blog-application-with-django/’>DJANGOCENTRAL</a> followed a tutorial for the blog</li>
+<li><a href=’https://fontawesome.com/v5.15/icons?d=gallery&p=2’>Font Awesome</a> used icons for headings throughout the project</li>
+<li><a href=’https://stackoverflow.com/’>Stackoverflow</a> gave isnight on how to solve broken code</li>
+<li><a href=’https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number#:~:text=Adding%20an%20HTML%20Phone%20Number%20Call%20Link%20to%20your%20Website&text=Href%3Dtel%3A%20creates%20the%20call,the%20number%20it%20will%20call.’>Elegant themes</a> helped with the telephone link</li>
+<li><a href=’https://www.color-hex.com/’>Color-Hex </a> used for the colour of banner and text</li>
+<li><a href=’https://www.tutorialspoint.com/index.htm’>Tutorialspoint</a> read through code to give some inspiration</li>
 </ul>
 
 ## Testing
 ### User Stories
 #### <b>Customer User Stories</b>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>View free recipes</li>
+<li>Order a cooking package</li>
+<li>Navigate through the page</li>
+<li>View social media through links</li>
+<li>Login/Register</li>
+<li>Get to know the coaches that will be teaching them</li>
+<li>Look at contact information</li>
+<li>Be able to call the company easily through the site</li>
+<li>Be able to email through the site by clicking on the email address</li>
+<li>Check where the company is located</li>
 </ol>
 
 #### <b>Site Owner User Stories</b>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Have login/registration functionalality</li>
+<li>Add and delete content from admin</li>
+<li>Keep track of users through the admin</li>
+<li>Have a functioning wepsite to display recipes</li>
+<li>Advertise packages to users</li>
+<li>Have a site that keeps users interested by using interactive sidebar pop ups</li>
 </ol>
 
 ### User Stories Fulfilment
 #### <b>Fulfilment of Customer User Stories</b>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Free recipes can be viewed through a blog which can be found through sidebar</li>
+<li>Cooking packages can be viewed for purchasing</li>
+<li>There is a clear navigation bar to help users navigate through the webpage</li>
+<li>Social media links at the bottom of page in footer</li>
+<li>Users can register for an account, sign in, log out and change email address</li>
+<li>Users can see information on coaches through card teplate on about page</li>
+<li>Theres a contact page for users to see how to contact the company/ site owner</li>
+<li>By clicking on the phone number in the contact page user can automatically call the number provided if on a call friendly device</li>
+<li>By clicking on the email address it will connect user to their email provider and set up a new email to the site owner/ email provided</li>
+<li>Users can see where the company is based through google maps displayed in contact page</li>
 </ol>
 
 #### <b>Fulfilment of Customer User Stories</b>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Customers can register to the site</li>
+<li>Site owner can add and delete content from the admin page of site</li>
+<li>Site owner can keep track of all users that have registered through admin page</li>
+<li>The site owner has a functioning site that they can display recipes on</li>
+<li>Packages available to users can be seen on packages page</li>
+<li>There are sidebars to keep users interested in whats happening on the page</li>
+</ol>
+
+### Validation
+<ol>
+<li><a href="https://validator.w3.org/">HTML</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/">CSS</a></li>
+<li><a href="https://www.w3schools.com/js/js_validation.asp">Javascript</a></li>
+<li><a href="https://validators.readthedocs.io/en/latest/">Python</a></li>
 </ol>
 
 
-## Version Control 
+## Version Control
 ### Gitpod and Github
 ### Deployment 
 ### Database 
