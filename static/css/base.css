@@ -200,3 +200,159 @@ letter-spacing: 5px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
+/*------------------------------------------------------Accounts*/
+
+/*-----------------------------------------sign up page*/
+.style-sign-up {
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.style-sign-up h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.style-sign-up p {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+.style-sign-up form {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.style-sign-up button {
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*-----------------------------------------sign in page*/
+.login-style {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.login-style h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.login-style p {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+.login-style form {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.login-style button {
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------------verify email page*/
+.verify-message {
+    text-align: center;
+    padding-bottom: 430px;
+}
+
+.verify-message h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.verify-message p {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 40px;
+    padding-left: 40px;
+    letter-spacing: 3px;
+}
+/*-----------------------------------------sign out page*/
+.log-out {
+    text-align: center;
+    padding-bottom: 430px;
+}
+
+.log-out h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.log-out p {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 40px;
+    padding-left: 40px;
+    letter-spacing: 3px;
+}
+
+.log-out form {
+
+}
+
+.log-out button {
+
+}
