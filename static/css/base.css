@@ -324,7 +324,7 @@ letter-spacing: 5px;
 /*-----------------------------------------sign out page*/
 .log-out {
     text-align: center;
-    padding-bottom: 430px;
+    padding-bottom: 340px;
 }
 
 .log-out h1 {
@@ -350,6 +350,111 @@ letter-spacing: 5px;
 }
 
 .log-out button {
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------------Change email page*/
+
+.email-change {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.email-change h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.email-change p {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 40px;
+    padding-left: 40px;
+    letter-spacing: 3px;
+}
+
+.email-change form {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.email-change button {
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.email-change h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------Change password page*/
+.password-change {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.password-change h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.password-change p {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 60px;
+    padding-left: 60px;
+    letter-spacing: 3px;
+}
+
+.password-change form {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #121213;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.password-change input {
     border-radius: 12px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
