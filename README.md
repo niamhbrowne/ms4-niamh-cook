@@ -240,5 +240,34 @@ Wireframes for this project can be found <a href=’’>here</a>
 
 ## Version Control
 ### Gitpod and Github
+<ul>
+<li>Created repository in Github</li>
+<li>Through the repository I started Gitpod</li>
+<li>Added, commited and pushed code to Github repository</li>
+</ul>
+
 ### Deployment 
+<ul>
+<li>Created Heroku account</li>
+<li>Created new app in Heroku</li>
+<li>Installed dj_database and psycopg2-binary</li>
+<li>Created superuser</li>
+<li>Installed unicorn</li>
+<li>Created requirements.txt file</li>
+<li>Added Procfile for Heroku</li>
+<li>Added, commited and pushed code to Heroku</li>
+</ul>
+
 ### Database 
+I used sqlite3 database during the development of the project ehich was installed with Django.
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+Please note that this was as far as I could go with the deployment of the site on Heroku. Running site can be seen through running the server on gitpod terminal.
