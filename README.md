@@ -144,6 +144,7 @@ Wireframes for this project can be found <a href=’’>here</a>
 <li>Creating a membership system</li>
 <li>Chat Bot</li>
 <li>Blog for students to use</li>
+<li>Setting up stripe payment</li>
 </ul>
 
 ## Technologies Used
