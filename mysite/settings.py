@@ -26,7 +26,7 @@ SECRET_KEY = 'g-@#*#6*o4eppl2gfpob+@4qutkj%c+cgl#1jhq&^bdmc39-6@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://git.heroku.com/cooking-guide-ms4.git', 'localhost']
+ALLOWED_HOSTS = ['cooking-guide-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
