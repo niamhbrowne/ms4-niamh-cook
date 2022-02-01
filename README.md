@@ -270,4 +270,4 @@ I used sqlite3 database during the development of the project ehich was installe
 <br>
 <br>
 <br>
-Please note that this was as far as I could go with the deployment of the site on Heroku. Running site can be seen through running the server on gitpod terminal.
+Please note that this was as far as I could go with the deployment of the site on Heroku. Running site can be seen through running the server on gitpod terminal. I couldn't find the answer to this issue anywhere nor could tutors on tutor support.
